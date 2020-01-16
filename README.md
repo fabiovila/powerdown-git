@@ -1,6 +1,6 @@
-#Powerdown Scripts
+## Powerdown Scripts
 Open Source PowerSave Scripts for Linux
 
-#Install
+## Install
     
     sudo ./install
