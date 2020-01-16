@@ -8,6 +8,7 @@ Open Source PowerSave Scripts for Linux
 
 Edit **/usr/bin/powerdown** as root to add platform's particularities. 
 You can get more info in linux kernel documentation folder. Look for device drivers docs that your platform contain.
+**powertop** command help too.
 
 
 Documentation Sources:
