@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+
+if [ "$EUID" -ne 0 ]
+  then echo "Usage 'sudo install'"
+  exit
+fi
+
+
+
+
+cp pm-hibernate 		/usr/bin
+cp pm-is-supported		/usr/bin
+cp pm-powersave		/usr/bin
+cp pm-suspend			/usr/bin
+cp pm-suspend-hybrid	/usr/bin
+cp powerdown			/usr/bin
+cp powernow			/usr/bin
+cp powerup				/usr/bin
+cp setup-hibernate		/usr/bin
+cp powerdown-functions	/usr/lib
+cp powerdown@.service 	/usr/lib/systemd/system
+cp 99-powerdown.rules 	/usr/lib/udev/rules.d/

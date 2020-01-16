@@ -12,6 +12,10 @@ lock
 display_power
 echo
 
+echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs'
+echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata1/power/control'
+echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata2/power/control'
+
 # nmi_watchdog
 dump /proc/sys/kernel/nmi_watchdog
 
